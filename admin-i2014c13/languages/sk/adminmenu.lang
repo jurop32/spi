@@ -1,0 +1,10 @@
+;texts for administration menu
+
+[menugroups]
+content="Obsah"
+extensions="Rozšírenia"
+restaurant="Reštaurácia"
+mixed="Rôzne"
+information="Informácie"
+site="Stránka"
+options="Možnosti"

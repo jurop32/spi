@@ -1,0 +1,10 @@
+<module id="banners" version="1">
+    <menugroup>extensions</menugroup>
+    <icon>calculator</icon>
+    <privileges>
+        <p id="show">0</p>
+        <p id="admin_all">0</p>
+    </privileges>
+    <dependency>menu</dependency>
+    <help>http://wiki.exetra.sk/index.php?title=Bannery</help>
+</module>

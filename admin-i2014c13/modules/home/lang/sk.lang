@@ -1,0 +1,9 @@
+name="Úvod"
+
+administration="Administrácia"
+welcome="Vitajte"
+member_of_group="Člen skupiny"
+choose_action="Vyberte akciu"
+
+[privileges]
+show="Zobraziť úvodnú stránku."

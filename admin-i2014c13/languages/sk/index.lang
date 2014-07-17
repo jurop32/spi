@@ -1,0 +1,11 @@
+;texts for administrators index page
+
+administration="Administrácia"
+user="Používateľ"
+logout="Odhlásenie"
+show_page="Zobraziť stránku"
+system_author="Autor systému"
+
+[errors]
+nomodules="Chyba: chýba modul '%s' alebo modul '%s'"
+install_dependency_modules="Nainštalujte prosím moduly (%s) potrebné k behu modulu %s."

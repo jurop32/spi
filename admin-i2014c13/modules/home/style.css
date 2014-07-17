@@ -1,0 +1,89 @@
+/* homepage */
+#homepage{
+    margin: 50px;
+    min-height: 250px;
+}
+
+#homepage h4{
+    font-size: 1.5em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#homepage>div>div.left{
+    width: 76%;
+    margin: 1%;
+}
+
+#homepage>div>div.right{
+    width: 20%;
+    margin: 1%;
+}
+
+#homepage>div>div.left>div.left{
+    border: solid #ccc 1px;
+    background-color: rgba(200,200,200,0.2);
+    border-radius: 15px;
+    margin: 10px;
+    width: auto;
+}
+
+#homepage>div>div.right>div.right,div.left, #homepage>div>div.left>div.left>div.left{
+    margin: 15px;
+    border-radius: 15px;
+}
+
+#homepage>div>div.left>div.left>h5{
+    margin: 10px 15px 0px 15px;
+    font-size: 16px;
+}
+
+.home-icon{
+    display: block;
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    background-image: url(icons/default.png);
+    background-position: center 15px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    line-height: 155px;
+    text-align: center;
+    /*transition: all 0.5s ease;*/
+    border: solid transparent 1px;
+}
+
+.home-icon:hover{
+    background-position: center 18px;
+    /*transition: all 0.5s ease;*/
+    transform: rotate(5deg);
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.7);
+    background-color:  rgba(0,0,0,0.5);
+    border-radius: 15px;
+    line-height: 150px;
+    border: solid #ddd 1px;
+}
+
+/*icons*/
+.hi-home { background-image: url(icons/home.png); }
+.hi-articles { background-image: url(icons/articles.png); }
+.hi-filemanager { background-image: url(icons/filemanager.png); }
+.hi-banners { background-image: url(icons/banners.png); }
+.hi-eventscalendar { background-image: url(icons/eventscalendar.png); }
+.hi-dayoffer { background-image: url(icons/dayoffer.png); }
+.hi-docs { background-image: url(icons/docs.png); }
+.hi-stats { background-image: url(icons/stats.png); }
+.hi-languages { background-image: url(icons/languages.png); }
+.hi-settings { background-image: url(icons/settings.png); }
+.hi-openinghours { background-image: url(icons/openinghours.png); }
+.hi-menu { background-image: url(icons/menu.png); }
+.hi-newsletter { background-image: url(icons/newsletter.png); }
+.hi-slideshow { background-image: url(icons/slideshow.png); }
+.hi-users { background-image: url(icons/users.png); }
+.hi-tools { background-image: url(icons/tools.png); }
+.hi-videos { background-image: url(icons/videos.png); }
+.hi-polls { background-image: url(icons/polls.png); }
+.hi-usergroups { background-image: url(icons/usergroups.png); }
+.hi-minislider { background-image: url(icons/minislider.png); }
+.hi-profile { background-image: url(icons/profile.png); }
+.hi-orders { background-image: url(icons/orders.png); }

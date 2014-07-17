@@ -1,0 +1,9 @@
+<module id="profile" version="1">
+    <menugroup>site</menugroup>
+    <icon>contact</icon>
+    <privileges>
+        <p id="use">0</p>
+    </privileges>
+    <dependency>usergroups,users</dependency>
+    <help>http://wiki.exetra.sk</help>
+</module>

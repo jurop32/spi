@@ -1,0 +1,8 @@
+<module id="tools" version="1">
+    <menugroup>options</menugroup>
+    <icon>wrench</icon>
+    <privileges>
+        <p id="use">0</p>
+    </privileges>
+    <help>http://wiki.exetra.sk</help>
+</module>

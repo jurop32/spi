@@ -1,0 +1,9 @@
+<module id="settings" version="1">
+    <menugroup>site</menugroup>
+    <icon>gear</icon>
+    <privileges>
+        <p id="show">0</p>
+        <p id="edit">0</p>
+    </privileges>
+    <help>http://wiki.exetra.sk</help>
+</module>

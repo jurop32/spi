@@ -1,0 +1,25 @@
+name="Nástroje"
+
+t1="Zásobník stránok"
+t2="Počet stránok v zásobníku"
+t3="Zásobník je vypnutý"
+t4="Vyprázdniť zásobník"
+t5="Log súbor"
+t6="Počet záznamov v súbore"
+t7="Vyprázdniť súbor"
+t8="Zobraziť záznamy"
+t9="Systémové úpravy"
+t10="Aktuálna verzia úprav"
+t11="Zobraziť úpravy"
+t12="Log súbor je prázdny."
+t13="Súbor úprav je prázdny."
+
+s1="Zásobník stránok bol vymazaný."
+s2="Log súbor bol vyprázdnený."
+
+e1="Nastala chyba pri mazaní súborov v zásobníku. Pravdepodobne sú nastavené zlé prístupové práva v adresári"
+e2="Nastala chyba pri vyprázdňovaní Log súboru."
+e3="Log súbor sa nemôže vyprázdniť. Pravdepodobne nemáte dostatočné práva na prístup k súboru."
+
+[privileges]
+use="Používať nástroje"

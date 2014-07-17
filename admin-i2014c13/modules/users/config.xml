@@ -1,0 +1,13 @@
+<module id="users" version="1">
+    <menugroup>options</menugroup>
+    <icon>person</icon>
+    <privileges>
+        <p id="show">0</p>
+        <p id="add_edit">0</p>
+        <p id="block">0</p>
+        <p id="delete">0</p>
+        <p id="delete_articles">0</p>
+    </privileges>
+    <dependency>usergroups</dependency>
+    <help>http://wiki.exetra.sk</help>
+</module>

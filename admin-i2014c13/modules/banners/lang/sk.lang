@@ -1,0 +1,88 @@
+name="Bannery"
+
+t1="V databáze nie sú uložené bannery!"
+t2="Za kategóriou číslo"
+t3="Vymazať banner?"
+t4="Určite chcete vymazať banner"
+t5="Vymazať aj súbor banneru"
+t6="Banner sa zobrazuje na stránke"
+t7="Aktuálny počet zobrazení"
+
+url="Odkaz"
+category_position="Pozícia v kategórii"
+first="Hore"
+last="Dole"
+new_banner="Nový banner"
+edit_banner="Úprava banneru"
+banner_saved="Banner bol uložený."
+banner_deleted="Banner bol odstránený z databázy."
+urlscript="Url/Skript"
+openin="Otvoriť odkaz banneru v novom okne"
+location="Lokalita"
+position="Pozícia"
+viewcount="Počet zobrazení"
+active="Aktívne"     
+position_nr="Číslo pozície"
+
+e1="Zadajte id banneru!"
+e2="Id banneru musí byť číselná hodnota!"
+e3="Nastala chyba pri ukladaní banneru do databázy!"
+e4="Nastala chyba pri mazaní banneru!"
+e5="Nastala chyba pri odstraňovaní banneru z databázy!"
+e6="Banner už nie je v databáze!"
+e7="Zadajte prosím typ banneru!"
+e8="Typ banneru zadávajte písmenom!"
+e9="Zadajte správnu linku pre iframe banneru!"
+e10="Zadajte správny skript pre google reklamu!"
+e11="Zadajte názov súboru banneru!"
+e12="Zadajte správnu linku pre zdrojový súbor banneru!"
+e13="Používajte iba súbory vo formáte JPG, PNG, GIF, SWF"
+e14="Maximálny počet znakov pre názov súboru banneru je 300!"
+e15="Zadajte správnu linku pre cieľovú stránku banneru!"
+e16="Zadajte Url/Skript pre banner!"
+e17="Maximálny počet znakov pre Url/Skript je 500!"
+e18="Zadajte jazyk pre banner!"
+e19="Jazyk pre banner určite číslom!"
+e20="Zadajte lokalitu pre banner!"
+e21="Maximálny počet znakov pre lokalitu banneru je 10!"
+e22="Zadajte pozíciu pre banner v kategórii!"
+e23="Maximálny počet znakov pre pozíciu banneru je 10!"
+e24="Maximálny počet číslic pre počet zobrazení je 11!"
+e25="Počet zobrazení zadávajte číslom!"
+e26="Zadajte stav či je banner aktívny!"
+e27="Maximálny počet znakov pre popis je 50!"
+e28="Zadajte ako sa má odkaz banneru otvárať!"
+
+h1="Obrázok - S vlastným súbor, alebo url<br />
+Flash - S vlastným súbor, alebo url s http://<br />
+Iframe - napríklad banner zo sytému ADGURU<br />
+Skript - banner zo sytému Google, mBucks"
+h2="Názov lokálneho súboru jpg,png,gif,swf<br />
+Url externého súboru<br />
+Najlepšie rozmery 250x250px, alebo podľa dizajnu a umiestnenia"
+h3="Štandardný banner - URL kam smeruje reklama<br />
+Iframe - zdroj obsahu pre iframe t.j. URL<br />
+Skript napr.: &lt;script&gt; ... &lt;/script&gt;<br />
+Interný odkaz: article=id_clanku, category=id_kategorie, page=id_podstranky"
+h4="V prípade, že zadaná pozícia je väčšia ako počet subkategórií/článkov danej kategórie alebo pozícia nie je zadefinovaná v dizajne stránky, tak sa banner nezobrazí."
+h5="Počet zobrazení zadávajte z intervalu &lt;0 - 99999999999&gt;"
+
+[bannerpositions]
+h="Hlavička"
+f="Pätička"
+r="Pravá lišta"
+l="Ľavá lišta"
+c="Články"
+a="Hlavná kategória"
+
+[bannertypes]
+a="Obrázok interný"
+b="Flash interný"
+c="Obrázok externý"
+d="Flash externý"
+e="Iframe"
+f="Skript"
+
+[privileges]
+show="Zobraziť editor bannerov"
+admin_all="Spravovať bannery (pridávať, upravovať, mazať, publikovať)"

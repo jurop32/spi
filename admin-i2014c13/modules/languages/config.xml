@@ -1,0 +1,9 @@
+<module id="languages" version="1">
+    <menugroup>options</menugroup>
+    <icon>flag</icon>
+    <privileges>
+        <p id="show">0</p>
+        <p id="admin_all">0</p>
+    </privileges>
+    <help>http://wiki.exetra.sk</help>
+</module>

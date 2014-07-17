@@ -1,0 +1,10 @@
+;texts for administrators authenticator
+
+name="Meno"
+password="Heslo"
+enter="Vstúpiť"
+msg1="Skupina používateľa má zakázané prihlasovanie do systému."
+msg2="Skupina používateľa chýba z databázy. Prihlásenie nie je možné."
+msg3="Používateľ je už prihlásený z iného počítača."
+msg4="Používateľ má zakázané prihlasovanie do systému."
+msg5="Neplatné meno alebo heslo."

@@ -1,0 +1,19 @@
+name="Štatistiky"
+
+statsdescr="Popis"
+statsdata="Údaj"
+
+all_articles_count="Počet všetkých článkov"
+user_all_articles_count="Počet článkov používateľa"
+last_article_date="Posledný článok pridaný"
+user_last_article_date="Posledný článok užívateľa pridaný"
+number_of_categories="Počet kategórií"
+number_of_videos="Počet videí"
+number_of_banners="Počet bannerov"
+number_of_slides="Počet slajdov"
+number_of_users="Počet používateľov"
+number_of_loggedin_users="Počet prihlásených používateľov"
+number_of_groups="Počet skupín"
+
+[privileges]
+show="Zobraziť štatistiky"

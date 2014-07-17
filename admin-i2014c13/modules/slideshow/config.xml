@@ -1,0 +1,9 @@
+<module id="slideshow" version="1">
+    <menugroup>extensions</menugroup>
+    <icon>image</icon>
+    <privileges>
+        <p id="show">0</p>
+        <p id="admin_all">0</p>
+    </privileges>
+    <help>http://wiki.exetra.sk</help>
+</module>

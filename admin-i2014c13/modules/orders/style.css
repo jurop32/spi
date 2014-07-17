@@ -1,0 +1,29 @@
+/* orders */
+.ordergallery{
+    margin: 2%;
+    width: 96%;
+}
+
+.ordergallery>a{
+    width: 200px;
+    height: 133px;
+    overflow: hidden;
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+    border: solid #ABC6DD 1px;
+}
+
+.ordergallery>a>img{
+    width: 200px;
+    height: auto;
+}
+
+table.infotable tr td{
+    border-bottom: none;
+}
+
+table.infotable tr:nth-child(odd)>td{
+    background-color: #eee;
+    border-bottom: none;
+}

@@ -1,0 +1,9 @@
+<module id="home" version="1">
+    <menugroup>site</menugroup>
+    <icon>home</icon>
+    <privileges>
+        <p id="show">1</p>
+    </privileges>
+    <dependency></dependency>
+    <help>http://wiki.exetra.sk</help>
+</module>

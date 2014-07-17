@@ -1,0 +1,13 @@
+<module id="articles" version="1">
+    <menugroup>content</menugroup>
+    <icon>document</icon>
+    <privileges>
+        <p id="show">1</p>
+        <p id="admin_own">1</p>
+        <p id="publish">0</p>
+        <p id="admin_all">0</p>
+        <p id="change_owner">0</p>
+    </privileges>
+    <dependency>menu</dependency>
+    <help>http://wiki.exetra.sk/index.php?title=%C4%8Cl%C3%A1nky</help>
+</module>

@@ -1,0 +1,37 @@
+name="Skupiny"
+
+t1="Vymazať skupinu?"
+t2="Určite chcete vymazať skupinu"
+t3="Vymažú sa aj používatelia patriaci do skupiny!"
+t4="Vymazať aj články používateľov skupiny"
+t5="Nová skupina"
+t6="V databáze nie sú žiadne skupiny! Pre pridávanie používateľov pridajte najprv skupinu!"
+t7="Úprava skupiny"
+t8="Názov skupiny"
+t9="Práva"
+t10="Nie sú dostupné žiadne práva modulov."
+t11="Vymazaním skupiny sa všetky objednávky používateľov priradia k aktuálnemu používateľovi!"
+
+s1="Skupina bola uložená."
+s2="Skupina bola odstránená."
+
+h1="Skupina má zakázané prihlasovanie"
+
+e1="Zadajte Id skupiny!"
+e2="Id skupiny misí byť číselná hodnota!"
+e3="Nastala chyba pri ukladaní skupiny do databázy!"
+e4="Nastala chyba pri vymazávaní článkov používateľov!"
+e5="Nastala chyba pri vymazaní súborov článkov používateľov skupiny!"
+e6="Nastala chyba pri vymazávaní používateľov skupiny!"
+e7="Nastala chyba pri odstraňovaní skupiny z databázy!"
+e8="Zadajte názov skupiny!"
+e9="Maximálny počet znakov pre názov skupiny je 50!"
+e10="Zadajte používateľské práva!"
+e11="Zadajte hodnotu pre stav zamietnutia prihlásenia 1!"
+
+[privileges]
+show="Zobraziť editor skupín"
+add_edit="Spravovať skupiny (pridávať, upravovať)"
+block="Blokovať skupiny (blokovanie prihlásenia používateľov skupiny)"
+delete="Vymazať skupinu a používateľov skupiny"
+del_articles="Vymazať články používateľov skupiny pri vymazaní skupiny a ich používateľov (po ponechaní článkov ich môže spravovať už len užívateľ s dostatočnými právami)"

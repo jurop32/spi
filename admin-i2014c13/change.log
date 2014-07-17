@@ -1,0 +1,12 @@
+- úprava minislider na interaktívny dom, pridaná možnosť si definovať vlastné odkazy s vlastným popisom aj viac na jeden bod
+- pridanie popup-u na uvodnu stranku, ktory sa zobrazi pri kazdej novej navsteve - kontrola podmienky v SESSION
+- úprava zobrazovania článkov na úvodnej obrazovke na zobrazenie v štýle noviniek
+
+Modul ORDERS
+- odobratie konečnej ceny
+- označenie mailu a telefónneho čísla za nepovinné údaje
+- pridanie šarže a použitého množstva
+- úprava pridávania fotogalérie
+- úprava posielaného mailu
+- úprava validácie
+- úprava zobrazenia objednávky

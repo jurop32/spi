@@ -1,0 +1,83 @@
+name="Články"
+
+t1="Vymazať článok?"
+t2="Určite chcete vymazať článok s id"
+t3="Počet otvorení článku"
+t4="Článok je publikovaný, alebo bude automaticky publikovaný dátumom daného dňa (nepublikovaný článok je dostupný cez linku)"
+t5="Článok sa zobrazuje na vrchu alebo v hornej časti zoznamu článkov v kategórii keď je viac článkov"
+t6="Jazyk článku"
+t7="Nemáte práva na editovanie článkov tejto kategórie!"
+t8="Nemáte práva na pridávanie článkov do tejto kategórie!"
+t9="Chýba parameter dočasného názvu adresára článku!"
+t10="max 250 znakov ostatné znaky nebudú uložené"
+t11="max 3000 znakov ostatné znaky nebudú uložené"
+t12="Pred pridaním obrázkov do článku sa obrázky musia nahrať na server.<br /><br />
+Reprezentačný obrázok článku 160x100, formát JPG názov: articlepic.jpg<br />
+Veľký reprezentačný obrázok článku 700xhocičo formát JPG názov: articlepic_big.jpg<br /><br />
+Obrázky galérie sa pridávajú do podadresára &quot;gallery&quot;. Pri pridávaní obrázkov do galérie je najlepšia výška max. 700px a šírka max. 1200px.
+Popis obrázkov v galérii sa určí samotným názvom súboru obrázka.<br /><br />
+Pre pridanie videa zo systému sa používa iframe"
+t13="Zobraziť článok na vrchu zoznamu článkov v kategórii"
+t14="Zobraziť pluginy sociálnych sietí pod článkom"
+t15="Editovať súbory"
+t16="Zobraziť článok na úvodnej stránke."
+
+h1="Článok sa zobrazí na hlavnej stránke."
+h2="Ak kľúčové slová nie sú zadané systém sa pokúsi vygenerovať ich automaticky.<br />Kľúčové slová by mali byť dlhšie ako 3 znaky, oddelené čiarkou.<br />Kľúčové slová môžu byť dvojice aj trojice."
+
+e1="Chýba id vlastníka článku!"
+e2="Id vlastníka článku zadávajte číslom!"
+e3="Nastala chyba pri ukladaní článku do databázy!"
+e4="Nastala chyba pri priradení súborov k článku."
+e5="Nastala chyba pri ukladaní obsahu článku do databázy!"
+e6="Zadajte id článku!"
+e7="Id článku musí byť číselná hodnota!"
+e8="Nastala chyba pri mazaní súborov článku!"
+e9="Nastala chyba pri odstraňovaní článku z databázy!"
+e10="Zadajte názov článku!"
+e11="Maximálny počet znakov pre názov článku je 250!"
+e12="Zadajte prológ článku!"
+e13="Maximálny počet znakov pre prológ článku je 3000!"
+e14="Zadajte obsah článku!"
+e15="Vyberte kategóriu článku!"
+e16="Kategóriu článku udávajte číslom!"
+e17="Zadajte rozloženie článku!"
+e18="Maximálny počet znakov pre rozloženie článku je 1!"
+e19="Zadajte jazyk článku!"
+e20="Jazyk kategórie určite číslom!"
+e21="Zadajte publikáciu článku!"
+e22="Publikáciu článku zadajte hodnotou 1(true) alebo 0(false)!"
+e23="Zadajte dátum publikácie článku!"
+e24="Nastavte prosím či sa článok má zobrazovať na vrchu zoznamu."
+e25="Nastavenie článku na vrch zoznamu zadajte hodnotou 1(true) alebo 0(false)!"
+e26="Nastavte prosím či sa pod článkom majú zobrazovať sociálne pluginy."
+e27="Nastavenie sociálnych pluginov zadajte hodnotou 1(true) alebo 0(false)!"
+e28="Článok sa nemôže pridať nie je povolený zápis do zložky"
+e29="Článok už nie je v databáze."
+e30="Nastavte prosím či sa článok má zobraziť na úvodnej stránke."
+e31="Nastavenie zobrazenia článku na úvodnej stránke zadajte hodnotou 1(true) alebo 0(false)!"
+e32="Kľúčové slová zadávajte v správnom formáte."
+e33="Kľúčové slová môžu mať spolu maximálne 500 znakov."
+
+noarticles="V databáze nie sú žiadne články vyhovujúce kritériám!"
+new_article="Nový článok"
+edit_article="Úprava článku"
+article_saved="Článok bol uložený"
+article_deleted="Článok bol vymazaný"
+prologue="Popis článku"
+content="Obsah"
+author="Autor"
+
+[layouts]
+s='Článok bez galérie'
+t='Článok s galériou miniatúr a náhľadov'
+;u='Článok s listovacou galériou a slideshow'
+g='Galéria miniatúr a náhľadov'
+;h='Galéria s listovaním a slideshow'
+
+[privileges]
+show="Zobraziť editor článkov"
+admin_own="Spravovať vlastné články (pridávať, upravovať, mazať)"
+publish="Publikovať články (publikovať vlastné články, alebo všetky ak je spravovanie všetkých článkov dovolené)"
+admin_all="Spravovať všetky články (pridávať, upravovať, mazať)"
+change_owner="Meniť vlastníkov článkov"

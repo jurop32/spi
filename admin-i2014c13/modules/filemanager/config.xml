@@ -1,0 +1,9 @@
+<module id="filemanager" version="1">
+    <menugroup>content</menugroup>
+    <icon>folder-collapsed</icon>
+    <privileges>
+        <p id="use">0</p>
+    </privileges>
+    <dependency></dependency>
+    <help>http://wiki.exetra.sk/index.php?title=S%C3%BAbory</help>
+</module>

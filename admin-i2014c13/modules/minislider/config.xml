@@ -1,0 +1,9 @@
+<module id="minislider" version="1">
+    <menugroup>extensions</menugroup>
+    <icon>arrowthick-2-e-w</icon>
+    <privileges>
+        <p id="show">0</p>
+        <p id="admin_all">0</p>
+    </privileges>
+    <help>http://wiki.exetra.sk</help>
+</module>

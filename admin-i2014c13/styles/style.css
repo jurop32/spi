@@ -1,0 +1,516 @@
+/* common styles*/
+body{
+    background-color: #ccc;
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    text-align: center;
+    font-family: arial, sans-serif;
+}
+
+.left{
+    display: block;
+    float: left;
+}
+
+.right{
+    display: block;
+    float: right;
+}
+
+.clear{
+    display: block;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+.clear_r{
+    clear: right;
+}
+
+.clear_l{
+    clear: left;
+}
+
+.bottommargin{
+    margin-bottom: 20px;
+}
+
+.error{
+    border: solid #ff0000 1px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-shadow: 1px 1px 0px #bad3ed;
+}
+
+.backgroundlogo{
+    background-image: url('../ecms.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+textarea{
+    resize: none;
+}
+
+button{
+    margin: 0 2px 0 2px;
+}
+
+span{
+    overflow: hidden;
+}
+
+span.itemname{
+    font-weight: bold;
+}
+
+#secondbody{
+    min-width: 1000px;
+    text-align: left;
+}
+
+#dialog-confirm{
+    display: none;
+    text-align: left;
+}
+
+#dialog-confirm .ui-icon-alert{
+    float: left;
+    margin: 0 7px 20px 0;
+}
+
+#messageholder{
+    position: fixed;
+    z-index: 101;
+    width: 300px;
+    padding: 10px;
+    left: 50%;
+    margin-left: -150px;
+    top: 30%;
+    display: none;
+}
+
+#filemanagerholder{
+    display: none;
+}
+
+#overlay{
+    display: none;
+    z-index: 1001;
+    position: fixed;
+    background-image: url('loader.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#footer{
+    color: #999;
+    text-align: center;
+}
+
+#footer>a{
+    color: inherit;
+}
+
+/* login page */
+#loginform{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 2px;
+}
+
+#loginform>div{
+    text-align: left;
+    padding: 8px;
+}
+
+#loginform input[type=text], #loginform input[type=password]{
+    width: 300px;
+    margin-bottom: 5px;
+}
+/* end login page */
+
+/* adminbar */
+#adminbar{
+    line-height: 38px;
+    padding-left: 30px;
+    margin: 5px;
+    border-top-left-radius: 25px;
+}
+
+#adminbar span{
+    display: block;
+}
+
+#adminbar a{
+    margin: 4px 4px 4px 0px;
+}
+/* end adminbar */
+
+/* admin menu */
+#menu{
+    margin: 5px;
+    border-bottom-right-radius: 25px;
+}
+
+#menu ul{
+    list-style-type: none;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    z-index: 1001;
+}
+
+#menu>ul{
+    position: absolute;
+    min-width: 1000px;
+}
+
+#menu a, #menu>ul>li>span{
+    display: block;
+    width: 100px;
+    text-align: left;
+    padding: 5px 13px 5px 13px;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+#menu a>span,#menu span>span{
+    float: right;
+}
+
+#menu>ul>li{
+    display: block;
+    float: left;
+    margin: 4px 0px 4px 4px;
+    background-image: none;
+    border: none;
+}
+
+#menu>ul>li.shadowed{
+    box-shadow: #000 0 2px 6px -1px;
+}
+
+#menu>ul>li.clear{
+    clear: both;
+    float: none;
+}
+
+#menu>ul>li>ul{
+    display: none;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#menu>ul>li>ul a{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+}
+/* end admin menu */
+
+/*editor pages*/
+.editorpage{
+    margin: 5px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.editorpage>p{
+    text-align: center;
+}
+
+.editorpage h3{
+    font-size: 1.6em;
+    text-align: center;
+    border-bottom: solid #cfcfcf 1px;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.editorpage fieldset{
+    border: dashed #0078AE 1px;
+    border-top: solid #0078AE 2px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #F0FBFF;
+    border-radius: 3px;
+}
+
+.editorpage legend{
+    border: solid #0078AE 1px;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 8px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #0078AE;
+    color: #fff;
+}
+
+.editorpage .tabs{
+    margin-bottom: 10px;
+}
+
+#listcontent>button{
+    margin: 10px;
+}
+
+#listcontent>fieldset{
+    margin: 10px;
+}
+
+#listholder{
+    height: 400px;
+    background-color: #fff;
+    overflow: auto;
+    margin: 10px;
+    color: #000;
+}
+
+#listholder a{
+    color: inherit;
+    text-decoration: none;
+}
+
+#listholder a:hover{
+    text-decoration: underline;
+}
+
+#listholder sup{
+    font-size: 7px;
+    font-family: arial;
+}
+
+#listholder table{
+    width: 100%;
+    border-spacing: 0px;
+}
+
+#listholder table button{
+    margin: 0px;
+}
+
+#listholder table tr.even{
+    background-color: #efefef;
+}
+
+#listholder table th{
+    white-space: nowrap;
+    padding: 0.6em;
+    line-height: 1.4em;
+}
+
+#listholder table th span{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#listholder table td{
+    text-align: center;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+}
+
+#listholder table td.text, #listholder table th.text{
+    text-align: left;
+}
+
+#listholder table th.control{
+    width: 30px;
+    text-align: center;
+}
+
+#listholder table img.thumb{
+    height: 40px;
+    width: auto;
+}
+
+#listholder p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+    color: #bbb;
+}
+
+/* editorholder */
+
+#editorholder{
+    margin: 10px;
+}
+
+#editorholder h4{
+    font-size: 1.5em;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+#editorholder>div{
+    padding: 10px;
+}
+
+#editorholder select{
+    width: 715px;
+    background-image: none;
+    background-color: #fff;
+}
+
+#editorholder input[type=text], #editorholder textarea{
+    width: 700px;
+    background-image: none;
+    background-color: #fff;
+}
+
+#editorholder select.splittedleft, #editorholder input.splittedleft{
+    width: 500px;
+}
+
+#editorholder select.splittedright, #editorholder input.splittedright, #editorholder button.splittedright{
+    width: 200px;
+}
+
+#editorholder textarea{
+    height: 70px;
+    margin-top: 10px;
+}
+
+#editorholder textarea.tinymce{
+    width: 700px;
+    height: 400px;
+}
+
+/*menu*/
+#selectopts{
+    margin: 10px;
+}
+
+#fileuploadholder{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -350px;
+    margin-top: -220px;
+    display: none;
+    width: 700px;
+    height: 440px;
+    z-index: 1003;
+}
+
+#logfilecontents{
+    height: 400px;
+    padding: 10px;
+    overflow: auto;
+    margin-bottom: 10px;
+    background-color: #fff;
+    color: #000;
+}
+
+#logfilecontents span{
+    font-family: monospace;
+    color: #bfbfbf;
+}
+
+/* filemanager subpage */
+#filemanager{
+    display: block;
+    height: 500px;
+    background-color: #fff;
+    overflow: auto;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+    width: 98%;
+    font-size: 14px;
+}
+
+/* help icons */
+.help{
+    display: none;
+}
+
+div.helpbox{
+    font-size: 0.8em;
+    float: left;
+    cursor: pointer;
+    text-indent: 0px;
+    margin: 10px;
+}
+
+div.helpbox>p{
+    display: none;
+    padding: 10px;
+    position: absolute;
+    width: 600px;
+    margin-top: -10px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    box-shadow: 1px 1px 3px 3px #ddd;
+    z-index: 1001;
+}
+
+#editorholder div.helpbox{
+    float: right;
+    margin: 0px;
+}
+
+#editorholder div.helpbox>p{
+    margin-left: -600px;
+    margin-top: -10px;
+}
+
+/* additional style corrigation for jquery ui */
+.ui-autocomplete-input { 
+    margin: 0px;
+    padding: 0.4em;
+}
+
+/* required styles for some subpages */
+.newsletter_recipientselector{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    display: none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.newsletter_recipientselector>span{
+    display: block;
+    padding: 2px;
+    margin: 20px 20px 20px 0;
+    cursor: pointer;
+    width: 90%;
+    overflow: hidden;
+}
+
+/* info holding table */
+table.infotable{
+    width: 96%;
+    margin: 2%;
+}
+
+table.infotable th{
+    text-align: left;
+    padding: 5px 20px;
+}
+
+table.infotable td{
+    padding: 5px;
+    border-bottom: #ccc dotted 1px;
+}
+
+table.infotable tr:last-child>td{
+    border: none;
+}

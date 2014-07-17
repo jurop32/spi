@@ -1,0 +1,9 @@
+<module id="docs" version="1">
+    <menugroup>information</menugroup>
+    <icon>help</icon>
+    <privileges>
+        <p id="show">1</p>
+    </privileges>
+    <dependency></dependency>
+    <help>http://wiki.exetra.sk</help>
+</module>

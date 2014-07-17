@@ -1,0 +1,13 @@
+<module id="orders" version="2">
+    <menugroup>extensions</menugroup>
+    <icon>cart</icon>
+    <privileges>
+        <p id="show">1</p>
+        <p id="add">0</p>
+        <p id="admin_own">0</p>
+        <p id="admin_all">0</p>
+        <p id="change_owner">0</p>
+    </privileges>
+    <dependency>users,usergroups</dependency>
+    <help>http://wiki.exetra.sk/</help>
+</module>

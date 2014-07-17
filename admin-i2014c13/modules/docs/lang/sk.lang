@@ -1,0 +1,8 @@
+name="Nápoveda"
+
+you_can_find_docs="Používateľskú príručku nájdete na našej wiki stránke na adrese"
+module="Modul"
+url="Odkaz"
+
+[privileges]
+show="Zobraziť nápovedu."
