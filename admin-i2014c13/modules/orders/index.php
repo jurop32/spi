@@ -19,6 +19,7 @@ if(!defined('SYSTEM_VERSION')) die('Error: No permission!');
         <?=$___LANGUAGER->getText('orders','t1'); ?>:
         <select class="ui-autocomplete-input ui-widget-content ui-corner-all" name="owner" id="owner">
             <option value="-">*</option>
+            <?='<pre>'.print_r($___REGISTRY, 1).'</pre>'?>
             <?=$___REGISTRY['orders']->getUsersComboboxElements($_SESSION[PAGE_SESSIONID]['id']); ?>
         </select> &raquo;
         <?=$___LANGUAGER->getText('orders','t2'); ?>:
@@ -50,12 +51,13 @@ if(!defined('SYSTEM_VERSION')) die('Error: No permission!');
         <?=$___LANGUAGER->getText('common','page'); ?>:
         <select class="ui-autocomplete-input ui-widget-content ui-corner-all" name="resultpage" id="resultpage">
         </select>
-        <button class="ui-icon-refresh button right" onclick="showItems();"><?=$___LANGUAGER->getText('common','show'); ?></button>
+        <button class="ui-icon-refresh button right" onclick="showItems();">
+            <?=$___LANGUAGER->getText('common','show'); ?></button>
         <div class="clear"></div>
     </div>
     <div id="listholder" class="ui-widget-content ui-corner-all"></div>
-    <? if($_SESSION[PAGE_SESSIONID]['privileges']['orders'][1] == '1'){ ?>
-        <button class="ui-icon-circle-plus button right" onclick="checkAddOrder();"><?=$___LANGUAGER->getText('orders','t6'); ?></button>
+    <? if ($_SESSION[PAGE_SESSIONID]['privileges']['orders'][1] == '1') { ?>
+        <button class="ui-icon-circle-plus button right" onclick="checkItem()"><?= $___LANGUAGER->getText('orders','t6') ?></button>
     <? } ?>
     <div class="clear"></div>
 </div>
